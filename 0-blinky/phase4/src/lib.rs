@@ -1,4 +1,4 @@
-#![feature(compiler_builtins_lib, lang_items, asm, panic_fmt, pointer_methods)]
+#![feature(compiler_builtins_lib, lang_items, asm)]
 #![no_builtins]
 #![no_std]
 
