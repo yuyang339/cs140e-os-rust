@@ -6,5 +6,5 @@ struct MyType(usize);
 fn main() {
     let x = MyType(10);
     let y = x;
-    let z = x;
+    let z = y;
 }
