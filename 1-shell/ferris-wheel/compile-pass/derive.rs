@@ -10,6 +10,6 @@ pub fn main() {
     println!("Duration: {:?}", Duration::MilliSeconds(1200));
 
     let x = Duration::Minutes(10);
-    let y = x;
-    let z = x;
+    let _y = Duration::Seconds(10);
+    let _z = x;
 }
